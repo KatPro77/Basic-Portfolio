@@ -5,6 +5,7 @@
 body {
     background-image: url(../Images/whitediamond.png);
     font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
     color: #777777;
 }
 
@@ -12,17 +13,12 @@ header {
     padding: 20px;
     background-color: #ffffff;
     border-color: #cccccc;
-    border-bottom: 4px;
-    margin-bottom: 20px;
+    border-bottom: solid 3px;
+    margin-bottom: 30px;
 }
 
 .Name {
     width: 960px;
-    margin: 0 auto;
-}
-
-.middle {
-    width:960px;
     margin: 0 auto;
 }
 
@@ -41,22 +37,70 @@ nav {
     float: right;
     width: 300px;
     text-align: center;
-    margin-inline-end: 25px;
-    display: inline;
+    margin-top: 35px;
+}
+
+
+nav ul li {
+   display: inline;
 }
 
 nav a {
     color: #777777;
     font-size: 18px;
     text-decoration: none;
+    padding: 5px 10px;
+    border-right: 2px solid #777777;
+}
+
+nav ul li:last-child a {
+    padding: none;
+    border-right: none;
 }
 
 
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #4aaaa5;
+    font-weight: bold; 
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #cccccc;   
+}
 
+p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
 
-
-img {
+.middle {
+    background: #ffffff;
+    width: 960px;
+    padding: 30px;
+    margin: 30px 0 30px 30px;
     float: left;
-    width: 200px;
-    height: 250px;
-    }
+}
+
+
+.inline-img {
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin: 0 20px 20px 0;
+}
+
+.clearfix { 
+    display: block;
+}
+
+footer {
+    clear: both;
+    background: #666666;
+    border-top: 3px solid #4aaaa5;
+    color: #cccccc;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
