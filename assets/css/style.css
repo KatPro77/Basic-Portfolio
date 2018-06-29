@@ -58,6 +58,9 @@ nav ul li:last-child a {
     border-right: none;
 }
 
+.clearfix { 
+    display: block;
+}
 
 h2 {
     font-family: 'Times New Roman', Times, serif;
@@ -91,10 +94,48 @@ p {
     margin: 0 20px 20px 0;
 }
 
-.clearfix { 
+.portfolio-image {
+    position: relative;
+    margin-bottom: 20px;
+    width: 45%;
+    float: left;
+    height: 250px;
+    padding: 200px 0 15px 0;
+}
+
+.portfolio-image:nth-of-type(even) {
+    float: right;
+}
+
+.portfolio-image h3 {
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width:100%;
+    padding: 12px 0;
+    position: absolute;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 10px 0 20px 0;
+    border: 2px solid #cccccc;
+    padding: 10px;
     display: block;
 }
 
+textarea {
+    height: 150px;
+}
+
+form button {
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    font-size: 18px;
+}
 footer {
     clear: both;
     background: #666666;
@@ -103,4 +144,40 @@ footer {
     text-align: center;
     padding: 25px;
     margin-top: 30px;
+}
+
+#community {
+    background: url(../Images/DSC_0645.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#architecture {
+    background: url(../Images/Photography\ Samples_Page_13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#graphics {
+    background: url(../Images/DSC_0149.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sports {
+    background: url(../Images/DSC_0067.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#charity {
+    background: url(../Images/DSC_0144.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#misc {
+    background: url(../Images/Photography\ Samples_Page_26.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
