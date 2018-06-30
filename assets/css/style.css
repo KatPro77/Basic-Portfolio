@@ -87,7 +87,7 @@ p {
     background: #ffffff;
     width: 960px;
     padding: 30px;
-    margin: 30px 0 30px 30px;
+    margin: auto;
 }
 
 
@@ -152,37 +152,37 @@ footer {
 }
 
 #community {
-    background: url(../Images/DSC_0645.jpg);
-    background-size: cover;
+    background-image: url(../Images/DSC_0645.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #architecture {
-    background: url(../Images/Photography\ Samples_Page_13.jpg);
-    background-size: cover;
+    background-image: url(../Images/Photography\ Samples_Page_13.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #graphics {
-    background: url(../Images/Photography\ Samples_Page_42.jpg);
-    background-size: cover;
+    background-image: url(../Images/Photography\ Samples_Page_42.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #sports {
-    background: url(../Images/DSC_0067.JPG);
-    background-size: cover;
+    background-image: url(../Images/DSC_0067.JPG);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #charity {
-    background: url(../Images/DSC_0144.JPG);
-    background-size: cover;
+    background-image: url(../Images/DSC_0144.JPG);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #misc {
-    background: url(../Images/Photography\ Samples_Page_26.jpg);
-    background-size: cover;
+    background-image: url(../Images/Photography\ Samples_Page_26.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
