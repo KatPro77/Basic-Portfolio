@@ -133,12 +133,11 @@ textarea {
 }
 
 button a {
-    background: #4aaaa5;
-    color: #ffffff;
+    color: #4aaaa5;
     padding: 20px 40px;
     margin: 10px 0;
     border: none;
-    font-size: 24px;
+    font-size: 18px;
     text-decoration: none;
     width: 200px;
 }
