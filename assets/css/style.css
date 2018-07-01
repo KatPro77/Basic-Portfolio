@@ -132,14 +132,15 @@ textarea {
     height: 150px;
 }
 
-button {
+button a {
     background: #4aaaa5;
     color: #ffffff;
-    padding: 10px 20px;
+    padding: 20px 40px;
     margin: 10px 0;
     border: none;
-    font-size: 18px;
-    width: 150px;
+    font-size: 24px;
+    text-decoration: none;
+    width: 200px;
 }
 footer {
     clear: both;
